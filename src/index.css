@@ -1,23 +1,10 @@
 @import "tailwindcss";
 
-/* @theme {
-  --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
-}
-
 body {
-  font-family: var(--font-sans);
-} */
-
-body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 
-/* html,
-body,
-#root {
-  min-height: 100%;
+/* *{
+  border: solid red 1px;
 } */
- /* *{
-  border: 1px solid red
- } */

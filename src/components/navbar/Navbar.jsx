@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import ResponsiveMenu from '../responsive-menu/ResponsiveMenu'
-import { Show, SignInButton, SignUpButton, UserButton } from '@clerk/react'
+import { Show,SignInButton, SignUpButton, UserButton } from '@clerk/react'
 import { Menu, X } from 'lucide-react'
 
 function Navbar() {
