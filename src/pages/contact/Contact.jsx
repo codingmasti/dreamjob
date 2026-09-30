@@ -88,25 +88,25 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Full Name"
-                className="w-full border rounded-xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border-gray-700 border-2 focus:border-none rounded-xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
               />
 
               <input
                 type="email"
                 placeholder="Email Address"
-                className="w-full border rounded-xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border-gray-700 border-2 focus:border-none rounded-xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
               />
 
               <input
                 type="text"
                 placeholder="Subject"
-                className="w-full border rounded-xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border-gray-700 border-2 focus:border-none rounded-xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
               />
 
               <textarea
                 rows="6"
                 placeholder="Write your message..."
-                className="w-full border rounded-xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+                className="w-full border-gray-700 border-2 focus:border-none rounded-xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500 resize-none"
               />
 
               <button
@@ -187,14 +187,10 @@ const Contact = () => {
                 loading="lazy"
                 allowFullScreen
               />
-
             </div>
-
           </div>
-
         </div>
       </section>
-
     </div>
   );
 };
