@@ -21,6 +21,7 @@ function JobCard({job}) {
                 <div className='lg:flex gap-7 hidden'>
                     <h3>{job.company.name}</h3>
                     <li>{job.location.city}</li>
+                    <h3>{job.id}</h3>
                 </div>
                 <div className='flex items-center justify-between'>
                     <div className='flex lg:w-50 h-17 flex-col justify-between'>

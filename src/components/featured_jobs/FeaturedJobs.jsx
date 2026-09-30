@@ -19,7 +19,7 @@ function FeaturedJobs() {
                 </div>
                 <div className=' grid md:grid-cols-2 lg:grid-cols-4 '>
                     {
-                        jobsData.slice(62,66).map((item, index) => {
+                        jobsData.slice(28,32).map((item, index) => {
                             return (
                                 <div key={item.id} onClick={()=> navigate(`/jobs/${item.id}`)} className='lg:w-70 w-92 border m-2 border-[#e2e8f0] hover:shadow-lg transition-all duration-300 p-4 rounded-xl flex flex-col justify-between gap-4'>
                                     <div className="flex gap-4 items-center">
